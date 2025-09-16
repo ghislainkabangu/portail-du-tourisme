@@ -1,0 +1,345 @@
+body {
+    margin: auto;
+    padding: auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    color: white;
+    background-color: rgb(51, 132, 51);
+}
+
+.header_FirstBox {
+    padding: 10px;
+    background-color: rgb(51, 132, 51);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.header_FirstBox div img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.header_FirstBox div nav ul {
+    list-style: none;
+}
+
+.header_FirstBox div nav ul li {
+    display: inline-block
+}
+
+.header_FirstBox div nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 50px;
+    padding-left: 35px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.header_FirstBox div nav ul li a:hover {
+    transition: 0.5s;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.openMenu {
+    display: none;
+    color: white;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+.openMenu i {
+    font-size: 30px;
+}
+
+.mobNav {
+    background-color: rgb(51, 132, 51);
+    padding: 2px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: -105%;
+    transition: 0.5s;
+}
+
+.closeMenu {
+    text-decoration: none;
+    float: right;
+    position: relative;
+    right: 25px;
+}
+
+.closeMenu i {
+    font-size: 30px;
+    color: white;
+}
+
+.mobNav ul {
+    padding-top: 50px;
+}
+
+.mobNav ul li {
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+.mobNav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    display: block;
+    padding: 10px;
+    font-size: large;
+}
+
+.mobNavNewClasse {
+    left: -0;
+    transition: 0.5s;
+}
+
+main {
+    margin-top: 50px;
+    background-image: url("album/claudio-testa--SO3JtE3gZo-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 100px 0px;
+    /*margin-top: 50px;*/
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 70px;
+    line-height: 1.2;
+    margin: auto;
+    width: 90%;
+    word-wrap: break-word;
+    color: white;
+
+}
+
+main a {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: inherit;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background 0.5s;
+    border: 2px solid white;
+}
+
+main a:hover {
+    background-color: inherit;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+section {
+    margin-top: 100px;
+}
+
+section h3 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 35px;
+    width: 85%;
+    margin: auto;
+}
+
+.section {
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.section div {
+    margin: auto;
+    margin-top: 20px;
+    flex-basis: 20%;
+    overflow: hidden;
+    padding: 15px;
+    box-shadow: 0px 10px 15px gainsboro;
+    transition: 0.5s;
+}
+
+.section div:hover {
+    transition: 0.5s;
+    box-shadow: 0px 0px 30px gainsboro;
+    padding: 20px;
+}
+
+.section div img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+
+.section div h4 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.section div a {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: rgb(51, 132, 51);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background 0.5s;
+    font-weight: 300;
+    transition: 0.5s;
+}
+
+.section div a:hover {
+    background-color: initial;
+    color: rgb(51, 132, 51);
+    letter-spacing: 1px;
+    border: 2px solid rgb(51, 132, 51);
+    transition: 0.5s;
+}
+
+.commentaires {
+    margin-top: 100px;
+}
+
+.commentairesBox {
+    margin: auto;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.commentairesBox div {
+    flex-basis: 25%;
+    text-align: center;
+    word-wrap: break-word;
+    margin-top: 20px;
+}
+
+.commentairesBox div img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+
+}
+
+.commentairesBox div img p {
+    text-align: justify;
+}
+
+footer {
+    margin-top: 150px;
+    background-color: rgb(51, 132, 51);
+    color: white
+}
+
+.footer-container {
+    margin: auto;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-container div {
+    flex-basis: 20%;
+    margin-top: 20px;
+}
+
+.footer-container div h3 {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.footer-container div ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-container div i {
+    color: white;
+}
+
+.footer-bottom {
+    margin-top: 50px;
+    text-align: center;
+}
+
+@media screen and (max-width:1280px) {
+    .section {
+        flex-wrap: wrap;
+    }
+
+    .section div {
+
+        flex-basis: 45%;
+    }
+
+    .section div:hover {
+        padding: 10px;
+    }
+
+    .footer-container div {
+        flex-basis: 40%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .NavigationDesktop {
+        display: none;
+        transition: 0.5s;
+    }
+
+    .openMenu {
+        display: block;
+        transition: 0.5s;
+    }
+
+    main h1 {
+        font-size: 50px;
+    }
+
+    .section div {
+        flex-basis: 85%;
+    }
+
+    .commentairesBox div {
+        flex-basis: 90%
+    }
+
+    .footer-container div {
+        flex-basis: 90%;
+    }
+}
