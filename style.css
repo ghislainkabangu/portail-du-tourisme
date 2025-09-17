@@ -252,7 +252,15 @@ section h3 {
     height: 150px;
     width: 150px;
     object-fit: cover;
+    transition: 0.5s;
 
+}
+
+.commentairesBox div img:hover {
+    height: 185px;
+    width: 185px;
+
+    transition: 0.5s;
 }
 
 .commentairesBox div img p {
